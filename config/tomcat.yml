@@ -22,7 +22,7 @@ tomcat:
   external_configuration_enabled: false
 external_configuration:
   version: 1.+
-  repository_root: 
+  repository_root: "{default.repository.root}/tomcat"
 lifecycle_support:
   version: 3.+
   repository_root: "{default.repository.root}/tomcat-lifecycle-support"
